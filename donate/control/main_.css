@@ -1,0 +1,41 @@
+a{cursor: pointer;}
+
+.main_{
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 333;
+}
+.main_ .top{
+    color: #bababa;
+    padding: 8px;
+    position: relative;
+}
+.main_ .top a{
+    position: absolute;
+    z-index: 444;
+}
+.site_name{
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.crd{
+    box-shadow: 4px 4px 12px grey;
+    width: 95%;
+    margin: auto;
+    padding: 8px;
+    position: relative;
+    overflow: auto;
+}
+.crd-title{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 9px;
+    font-size: 10px;
+}
+.crd-date{display: block; text-align: right;}
